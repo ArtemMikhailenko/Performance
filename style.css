@@ -15,6 +15,10 @@ html , body {
     min-width: 20rem;
     line-height: 1;
     
+    
+}
+body{
+    overflow-x: hidden;
 }
 a{
     color: inherit;
@@ -56,16 +60,17 @@ button{
 
 
 [class*="__container"] {
-    max-width: 90rem;
-    padding-left: 4.6875rem;
-    padding-right: 4.6875rem;
+    max-width: 100.000vw;
+    padding-left: 5.208vw;
+    padding-right: 5.208vw;
     margin: 0 auto;
 
 }
 .header {
     position: absolute;
+    height: 100%;
     width: 100%;
-    max-height: 12.5rem;
+    height: 3.732vh;
     left: 0;
     top: 0;
     z-index: 5000000;
@@ -84,12 +89,12 @@ button{
 }
 
 .header__logo img {
-    width: 3.875rem;
+    max-width: 3.875rem;
 }
 .header__body {
     display: flex;
     align-items: center;
-    column-gap: 2.6875rem;
+    column-gap: 2.986vw;
     position: relative;
 }
 .menu__list {
@@ -97,13 +102,13 @@ button{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 50.75rem;
+    width: 56.389vw;
     font-family: 'Roboto', sans-serif;
     justify-content: space-between;
     border: 0.25px #ffffffaf solid;
-    row-gap: 0.625rem;
+    row-gap: 0.694vw;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.444vw;
     font-weight: normal;
     text-align: center;
     background: rgba(38, 90, 215, 0.08);
@@ -114,7 +119,7 @@ button{
 
 }
 .menu__item{
-padding:20px;
+padding:1.389vw;
 
 }
 .menu__link{
@@ -137,7 +142,7 @@ padding:20px;
     row-gap: 0.625rem;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.444vw;
     font-weight: 400;
     align-items: center;
     position: relative;
@@ -152,15 +157,15 @@ padding:20px;
 
 
 .main-section {
-    height: 44.5625rem;
+    height: 100vh;
     position: relative;
     display: flex;
 }
 .main-section__content{
     display: flex;
     flex-direction: column;
-    gap: 1.875rem;
-    max-width: 49.6875rem;
+    gap: 2.083vw;
+    width: 55.208vw;
     padding-top: 3.8125rem;
     
 }
@@ -169,7 +174,7 @@ padding:20px;
     padding-top: 5.625rem;
     padding-bottom: 1.875rem;
     z-index: 500000;
-    gap: 1.25rem;
+    gap: 1.389vw;
     flex: 1 1 auto;
     display: flex;
     min-height: 100%;
@@ -181,7 +186,7 @@ padding:20px;
 .main-section__label {
     color: #FFF;
     font-family: 'Roboto';
-    font-size: 2.25rem;
+    font-size: 2.500vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -189,7 +194,7 @@ padding:20px;
 }
 .main-section__title{
     font-family: 'Roboto', sans-serif;
-    font-size: 64px;
+    font-size: 4.444vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -200,30 +205,30 @@ padding:20px;
     position: relative;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 1.5rem;
+    font-size: 1.667vw;
     z-index: 10000000000;
     font-style:normal;
     font-weight: 500;
     line-height: normal;
     border-radius: 0.9375rem;
     border-width: 1px;
-    width: 13.6875rem;
-    height: 3.75rem;
+    width: 15.208vw;
+    height: 8.167vh;
     background: rgb(20,94,182);
     background: linear-gradient(90deg, rgba(20,94,182,0.8559874633447129) 26%, rgba(249,249,249,0) 100%)
 }
 .main-section__image {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
     left: 0;
-    background-color: black;
+    
 }
 .main-section__image img{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     left: 0;
     object-fit: cover;
@@ -233,19 +238,20 @@ padding:20px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
     z-index:50000;
     opacity:1;
 }
 .main-section__mountain img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    object-fit:fill;
 }
 .main-section__arrows{
     
     margin: 0 auto;
+
 }
 .page_about{
     background-image: url(/img/black-particles-pattern\ 1.png);
@@ -254,11 +260,11 @@ padding:20px;
 }
 
 .page_about_title{
-    padding-top: 4.3125rem;
+    padding-top: 50px;
     padding-bottom: 1.875rem;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 4rem;
+    font-size: 4.444vw;
     font-style: normal;
     font-weight: 500;
 }
@@ -266,7 +272,7 @@ padding:20px;
     color: #A7A7A7;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 1.5rem;
+    font-size: 1.1.667vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -282,21 +288,21 @@ padding:20px;
 .title_first_blocks_info{
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 5.4375rem;
 }
 .first_blocks_content{
-    width: 23rem;
-    height: 21.5rem;
+    width: 25.556vw;
+    height: 41vh;
     border-radius: 0.9375rem;
-    margin-top: 1.25rem;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     
     justify-content: center;
-    gap: 3.25rem;
+    gap: 3.611vw;
     margin-bottom: 5rem;
     background: rgb(6,57,118);
     background: linear-gradient(145deg, rgba(6,57,118,0.8531863428965336) 0%, rgba(249,249,249,0) 100%); 
@@ -308,30 +314,30 @@ padding:20px;
     color: #FFF;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 32px;
+    font-size: 2.222vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    max-width: 19.5rem;
+    max-width: 21.667vw;
 }
 .first_blocks_content_number{
     color: #FFF;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 48px;
+    font-size: 3.333vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 .first_blocks_sales{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }  
 .blocks_sales_content{
     display: flex;
-    width: 100%;
-    gap: 1.4375rem;
+    width: 100vw;
+    gap: 1.597vw;
     flex-wrap: wrap;
     
     justify-content: center;
@@ -341,27 +347,30 @@ padding:20px;
     background: linear-gradient(145deg, rgba(6,57,118,0.8531863428965336) 0%, rgba(249,249,249,0) 100%); 
     border-radius: 0.9375rem;
     border: rgba(6,57,118,0.8531863428965336) 1px solid;
-    max-width: 39.25rem;
+    width: 43.611vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.875rem;
-    padding: 0 2.8125rem;
+    gap: 2.083vw;
+    padding: 0 3.125vw;
 }
 .sales_content_txt_title{
     color: #FFF;
 
 font-family: 'Roboto';
-font-size: 4rem;
+font-size: 4.444vw;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.sales_content_img img {
+    width: 43.611vw;
+}
 .sales_content_txt_text{
     color: #A7A7A7;
     font-family: 'Roboto';
-    font-size: 1.5rem;
+    font-size: 1.667vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -374,7 +383,7 @@ line-height: normal;
     color: #FFF;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 4rem;
+    font-size: 4.444vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -384,21 +393,25 @@ line-height: normal;
 .advantages_blocks{
     display: flex;
     flex-wrap: wrap;
-    gap: 5.375rem;
+    gap: 5.972vw;
     justify-content: center;
     
+}
+.advantages_block_img img {
+    width: 3.333vw;
+    height: 6.202vh;
 }
 .advantages_blocks_block{
     display: flex;
     flex-direction: column;
-    max-width: 23rem;
+    width: 25.556vw;
     background: rgb(6,57,118);
     background: linear-gradient(145deg, rgba(6,57,118,0.8531863428965336) 0%, rgba(249,249,249,0) 100%); 
     border-radius: 0.9375rem;
     border: rgba(6,57,118,0.8531863428965336) 1px solid;
-    height: 21.5rem;
-    padding: 1.875rem 1.875rem 0 1.875rem;
-    gap: 1.875rem;
+    height: 44.444vh;
+    padding: 3.876vh 2.083vw 0 2.083vw;
+    gap: 2.083vw;
     
 }
 
@@ -406,7 +419,7 @@ line-height: normal;
     
 color: #FFF;
 font-family: 'Roboto';
-font-size: 32px;
+font-size: 2.222vw;
 font-style: normal;
 font-weight: 500;
 line-height: normal
@@ -414,18 +427,18 @@ line-height: normal
 .advantages_block_text{
     color: #A7A7A7;
     font-family: 'Roboto';
-    font-size: 1.25rem;
+    font-size: 1.389vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .page_cooperation_title{
-    margin-top: 5rem;
+    margin-top: 80px;
     color: #FFF;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 4rem;
+    font-size: 4.444vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -433,21 +446,21 @@ line-height: normal
 }
 .cooperation_blocks{
     display: flex;
-    gap: 5.75rem;
-    flex-wrap: wrap;
+    gap: 12.778vh;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 .cooperation_block_content{
     display: flex;
     flex-direction: column;
-    gap: 1.875rem;
-    max-width: 37.0625rem;
+    gap: 2.083vw;
+    width: 41.181vw;
 }
 .cooperation_block_txt{
     display: flex;
     flex-direction: column;
-    padding-left:3rem ;
-    padding-right: 3rem;
+    padding-left:3.333vw ;
+    padding-right: 3.333vw;
     background: rgb(6,57,118);
     background: linear-gradient(145deg, rgba(6,57,118,0.8531863428965336) 0%, rgba(249,249,249,0) 100%); 
     border-radius: 0.9375rem;
@@ -456,17 +469,17 @@ line-height: normal
 .cooperation_block_title{
     color: #FFF;
     font-family: 'Roboto';
-    font-size: 48px;
+    font-size: 3.333vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-top: 1.875rem;
+    padding-top: 3.653vh;
     padding-bottom: 0.9375rem;
 }
 .cooperation_block_text{
     color: #A7A7A7;
     font-family: 'Roboto';
-    font-size: 1.5rem;
+    font-size: 1.667vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -475,19 +488,26 @@ line-height: normal
 .cooperation_block_link{
     color: #0094FF;
     font-family: 'Roboto';
-    font-size: 24px;
+    font-size: 1.667vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 30px;
+    padding-bottom: 4.167vh;
 }
-
+.cooperation_block_img{
+    width: 100%;
+    height: 100%;
+}
+.cooperation_block_img img {
+    width: 100%;
+    height: 100%;
+}
 .token_title{
     margin-top: 5rem;
     color: #FFF;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 4rem;
+    font-size: 4.444vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -497,7 +517,7 @@ line-height: normal
     color: #A7A7A7;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 2.25rem;
+    font-size: 2.500vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -505,16 +525,17 @@ line-height: normal
 }
 .token_blocks{
     display: flex;
-    gap: 1.6875rem;
-    flex-wrap: wrap;
+    gap: 1.875vw;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 .token_block{
     display: flex;
     flex-direction: column;
-    gap: 3.5831rem;
-    width: 18.75rem;
-    padding-left: 1.875rem;
+    gap: 3.981vw;
+    width: 20.833vw;
+    max-height: 35.929vh;
+    padding-left: 2.083vw;
     background: rgb(6,57,118);
     background: linear-gradient(145deg, rgba(6,57,118,0.8531863428965336) 0%, rgba(249,249,249,0) 100%); 
     border-radius: 0.9375rem;
@@ -524,20 +545,19 @@ line-height: normal
 .token_block_title{
     color: #A7A7A7;
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 1.389vw;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    padding-top: 4.3rem;
+    padding-top: 8.812vh;
 }
 .token_block_info{
     color: #FFF;
     font-family: 'Roboto';
-    font-size: 36px;
+    font-size: 2.500vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-bottom: 7.695rem;
+    padding-bottom: 10.986vh;
 }
 
 .roadmap_title{
@@ -545,28 +565,38 @@ line-height: normal
 
 text-align: center;
 font-family: 'Roboto';
-font-size: 64px;
+font-size: 4.444vw;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-margin-top: 3.1875rem;
-padding-top: 6.375rem;
-padding-bottom: 5.75rem;
+margin-top: 7.391vh;
+padding-top: 14.783vh;
+padding-bottom: 13.333vh;
 background: radial-gradient(50.19% 50.19% at 50% 0%, #14387E 0%, rgba(3, 29, 81, 0.00) 100%);
 }
 .roadmap_blocks{
     display: flex;
-    gap: 9.4375rem;
+    gap: 10.486vw;
     width: 100%;
     justify-content: center;
     align-items: center;
     position: relative;
-    padding-bottom: 4.0625rem;
-    flex-wrap: wrap;
+    padding-bottom: 65px;
+    /* flex-wrap: wrap; */
 }
 .roadmap_mapline{
     position: absolute;
-    top: -20px;
+    top: -10px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.roadmap_mapline img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .roadmap_block{
     display: flex;
@@ -578,7 +608,7 @@ background: radial-gradient(50.19% 50.19% at 50% 0%, #14387E 0%, rgba(3, 29, 81,
 padding-left: 5rem;
 position: relative;
 font-family: 'Roboto';
-font-size: 4rem;
+font-size: 4.444vw;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -589,7 +619,7 @@ color: #0094FF;
 position: absolute;
 display: inline-block;
 font-family: 'Roboto';
-font-size: 32px;
+font-size: 2.222vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -599,10 +629,10 @@ line-height: normal;
     color: #FFF;
 display: flex;
 flex-direction: column;
-gap: 1.5rem;
+gap: 1.667vw;
 text-align: center;
 font-family: 'Roboto';
-font-size: 1.5rem;
+font-size: 1.667vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -610,16 +640,17 @@ padding-top: 2.125rem;
 position: relative;
 align-items: center;
 justify-content: center;
-padding-left: 50px;
+padding-left: 3.472vw;
 
 }
 .roadmap_block_element ::before{
     content: url("/img/roadmapsvg.svg");
-    
+    width: 2.500vw;
+    height: 5.217vh;
     line-height: normal;
-    height: 100%;
+    object-fit: contain;
     position: absolute;
-    left: 0px;
+    left: -10px;
 
 }
 
@@ -639,7 +670,7 @@ padding-left: 50px;
     padding-bottom: 0.5625rem;
     color: #FFF;
     font-family: 'Roboto';
-    font-size: 24px;
+    font-size: 1.667vw;
     font-weight: 400;
     align-items: center;
 }
@@ -655,7 +686,7 @@ padding-left: 50px;
 
 @media(max-width:1421px){
     .roadmap_mapline{
-        display: none;
+        /* display: none; */
     }
 }
 
@@ -667,7 +698,7 @@ padding-left: 50px;
   
   #particles-js{
    position: absolute;
-    height: 44.5625rem;
+    height: 100vh;
     top: 0;
     left: 0;
     z-index: 1;
