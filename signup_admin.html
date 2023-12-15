@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/signin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-флаг-украины-32.png">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="intlTelInput.css">
+    <script src="jquery.min.js"></script>
+    <script src="build/js/intlTelInput.js"></script>
+    <script type="text/javascript">
+        var RecaptchaOptions = {
+           lang : 'fr',
+        };
+        </script>
+    <script src="/app.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            
+            <div class="header__container">
+                 
+                <div class="header__logo">
+                    <img src="/img/Logo.svg" alt="Logo">
+                </div>
+                
+                <div class="header__body">
+                    
+                    <nav class="header__menu menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="/index.html" class="menu__link">Main</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/brands.html" class="menu__link">For brands</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/bloggers.html" class="menu__link">For bloggers</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Job</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Reviews</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">FAQ</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/contact.html" class="menu__link">Contacts</a>
+                                </li>
+                            </ul>
+                    </nav>
+                </div>
+                <div class="header__language">
+                    English
+                </div>
+            </div>
+        </header>
+        <div class="login">
+            <div class="login_container">
+                <div class="login_img">
+                    <img src="/img/signup.png" alt="">
+                </div>
+                <div class="login_content">
+                    <div class="login_head">
+                        <div class="login_head_language">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <mask id="mask0_424_132" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask0_424_132)">
+                                <path d="M0 0L0.375 1.03125L0 2.10938V3.1875L1.5 5.71875L0 8.25V9.75L1.5 12L0 14.25V15.75L1.5 18.2812L0 20.8125V24L1.03125 23.625L2.10938 24H3.1875L5.71875 22.5L8.25 24H9.75L12 22.5L14.25 24H15.75L18.2812 22.5L20.8125 24H24L23.625 22.9688L24 21.8906V20.8125L22.5 18.2812L24 15.75V14.25L22.5 12L24 9.75V8.25L22.5 5.71875L24 3.1875V0L22.9688 0.375L21.8906 0H20.8125L18.2812 1.5L15.75 0H14.25L12 1.5L9.75 0H8.25L5.71875 1.5L3.1875 0H0Z" fill="#EEEEEE"/>
+                                <path d="M15.75 0V5.0625L20.8125 0H15.75ZM24 3.1875L18.9375 8.25H24V3.1875ZM0 8.25H5.0625L0 3.1875V8.25ZM3.1875 0L8.25 5.0625V0H3.1875ZM8.25 24V18.9375L3.1875 24H8.25ZM0 20.8125L5.0625 15.75H0V20.8125ZM24 15.75H18.9375L24 20.8125V15.75ZM20.8125 24L15.75 18.9375V24H20.8125Z" fill="#0052B4"/>
+                                <path d="M0 0V2.10938L6.14062 8.25H8.25L0 0ZM9.75 0V9.75H0V14.25H9.75V24H14.25V14.25H24V9.75H14.25V0H9.75ZM21.8906 0L15.75 6.14062V8.25L24 0H21.8906ZM8.25 15.75L0 24H2.10938L8.25 17.8594V15.75ZM15.75 15.75L24 24V21.8906L17.8594 15.75H15.75Z" fill="#D80027"/>
+                                </g>
+                                </svg>
+                            ENG
+                        </div>
+                        <div class="login_head_button">
+                            <button>Sing in</button>
+                        </div>
+                    </div>
+                    <div class="login_title">
+                        Sign up 
+                    </div>
+                    <div class="login_subtitle">
+                        Already have an account?<a href="#"> Sign in</a>
+                    </div>
+                    <div class="login_form">
+                        <form action="">
+
+                            <div class="form_head">
+                                <div class="form_head_title">To register in the system you need to have a minimum of 500 subscribers</div>
+                                <div class="form_head_subtitle">
+                                    <div class="form_head_img">
+                                        <img src="/img/Rectangle 68.png" alt="">
+                                    </div>
+                                    <div class="form_head_text">
+                                        If you have less than that, <a href="#">Sherry's</a> app will work for you
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none" preserveAspectRatio="none">
+                                        <rect x="0.943359" width="12.0307" height="12" rx="6" fill="#A7A7A7"/>
+                                        <path d="M6.89939 8.43964C6.6777 8.43964 6.48909 8.51512 6.33275 8.66646C6.17629 8.8178 6.09811 9.00162 6.09811 9.21707C6.09811 9.46101 6.17721 9.65209 6.33518 9.7913C6.49372 9.93039 6.6777 10 6.88875 10C7.10338 10 7.29037 9.93139 7.45041 9.7938C7.61046 9.65659 7.69002 9.46451 7.69002 9.2172C7.69002 9.00162 7.6137 8.81792 7.46094 8.66658C7.30783 8.51512 7.12084 8.43964 6.89939 8.43964ZM9.15889 3.08298C8.95582 2.74931 8.66499 2.48175 8.2939 2.2888C7.92546 2.09673 7.49621 2 7.01722 2C6.50193 2 6.04341 2.11635 5.65486 2.34616C5.2655 2.57586 4.96541 2.87078 4.76165 3.22344C4.55651 3.57723 4.45312 3.93289 4.45312 4.2808C4.45312 4.46701 4.52436 4.64034 4.66486 4.79618C4.80606 4.95289 4.98183 5.03237 5.18698 5.03237C5.53621 5.03237 5.77559 4.80992 5.89713 4.37491C6.0078 4.01412 6.14414 3.73957 6.30187 3.55749C6.45035 3.38603 6.69112 3.2993 7.01734 3.2993C7.29869 3.2993 7.52061 3.38453 7.69673 3.55998C7.87019 3.73344 7.95449 3.94039 7.95449 4.19208C7.95554 4.31395 7.92712 4.43401 7.87204 4.54036C7.8135 4.65393 7.74065 4.75815 7.65556 4.85004C7.56536 4.94751 7.41665 5.0946 7.21335 5.28655C6.97652 5.51087 6.78536 5.70795 6.64579 5.87053C6.49819 6.04462 6.37964 6.24504 6.2954 6.46288C6.20739 6.68833 6.16287 6.95676 6.16287 7.26106C6.16287 7.52112 6.22994 7.72244 6.36258 7.85966C6.49383 7.99588 6.65723 8.06498 6.84862 8.06498C7.21451 8.06498 7.44428 7.84891 7.51251 7.44476C7.5479 7.27668 7.57369 7.15921 7.59115 7.0921C7.60699 7.03137 7.62989 6.96913 7.65938 6.9069C7.68794 6.84666 7.73327 6.77806 7.79398 6.70257C7.85747 6.62372 7.94385 6.53062 8.0492 6.42677C8.44342 6.04611 8.72142 5.77031 8.87568 5.6071C9.03481 5.43852 9.17357 5.23669 9.28864 5.0065C9.40613 4.77031 9.46591 4.493 9.46591 4.18195C9.46568 3.7878 9.3623 3.4184 9.15819 3.08335" fill="white"/>
+                                        </svg>
+                                </div>
+                            </div>
+                            <div class="form_phone">
+                                <div class="form_code sig">
+                                    <input type="text" placeholder="Code">
+                                    <i class="fa fa-lock" aria-hidden="true"></i> 
+                                </div>
+                                
+                            </div>
+                            
+                            
+                            <div class="block">
+                                <div class="g-recaptcha" data-sitekey="6LfMIiEpAAAAAPTnBVjkFq1qjk1rhxIyIipqq5_r"></div>
+                            </div>
+                            
+                            <div class="form_or">
+                                <div class="line1"></div>
+                                <span class="or">or</span>
+                                <div class="line2"></div>
+                            </div>
+                            <div class="login_social">
+                                <div class="login_google">
+                                    <img src="/img/google icon.png" alt="">
+                                </div>
+                                <div class="login_facebook">
+                                    <img src="/img/Facebook icon.png" alt="">
+                                </div>
+                            </div>
+                            
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            
+            <div class="footer_content">
+                <div class="footer_element_one">
+                     Lorem ipsum
+                </div>
+                <div class="footer_element_logo">
+                    <img src="/img/Logo.svg" alt="Logo">
+                </div>
+                <div class="footer_element_two">
+                    <div class="footer_element_two_first">
+                        Lorem ipsum
+                    </div>
+                    <div class="footer_element_two_second">
+                        Lorem ipsum
+                    </div>
+                </div>
+            </div>
+                
+        
+        
+    </div>
+</body>
+</html>

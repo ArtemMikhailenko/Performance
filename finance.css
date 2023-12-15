@@ -1,0 +1,304 @@
+.page_finance{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 1.389vw;
+    margin-left: 0.694vw;
+    color: var(--black, #282828);
+    font-family: "Roboto";
+    font-size: 1.389vw;
+    font-weight: 400;
+    
+
+}
+.finance_employes{
+    display: flex;
+    flex-direction: column;
+    width: 56.319vw;
+height: 44.792vw;
+padding-top: 2.083vw;
+border-radius: 5px;
+padding-bottom: 2.639vw;
+margin-bottom: 2.778vw;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.employes_head{
+    display: flex;
+    justify-content: space-between;
+    padding:0 2.083vw;
+    align-items: center;
+    color: var(--blue, #145EB6);
+    font-family: "Roboto";
+    font-size: 1.389vw;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 2.083vw;
+}
+.employes_head_button_block{
+    display: flex;
+    gap: 1.389vw;
+    align-items: center;
+}
+.employes_head_button{
+    display: flex;
+    align-items: center;
+    color: var(--blue, #145EB6);
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+}
+.employes_head_button img {
+    width: 1.111vw;
+    height:1.111vw ;
+}
+.employes_head_button button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 9.236vw;
+    height: 2.431vw;
+    border-radius: 5px;
+    border: 1px solid var(--blue, #145EB6);
+}
+.employes_head_button_setting img{
+    width: 1.667vw;
+height: 1.667vw;
+}
+.employes_head_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2.083vw;
+    width: 20.417vw;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 1.389vw;
+    
+}
+.employes_blocks{
+display: flex;
+gap: 1.389vw;
+}
+
+.employes_block_one_filter,.employes_block_one_card{
+    display: flex;
+    align-items: center;
+    width: 25.278vw;
+height: 3.125vw;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+color: var(--blue, #145EB6);
+font-family: "Roboto";
+font-size: 1.111vw;
+font-style: normal;
+font-weight: 400;
+}
+.employes_block_one_card{
+    height: 3.819vw;
+}
+.employes_block_one_filter img {
+    width: 1.389vw;
+height: 1.389vw;
+}
+.block_one_filter_check input, .block_one_card_check input{
+    height: 0.903vw;
+    width: 0.903vw;
+   
+}
+
+.block_one_filter_check , .block_one_card_check{
+    padding-left: 2.083vw;
+    padding-right: 0.694vw;
+}
+.block_one_filter_code{
+    padding-right: 5px;
+}
+.block_one_filter_name{
+    padding-left: 9.514vw;
+    padding-right: 5px;
+}
+.block_one_card_img img{
+    width: 2.431vw;
+height: 2.431vw;
+}
+.block_one_card_img{
+    padding-right: 0.694vw;
+}
+.block_one_card_code{
+    padding-right: 4.514vw;
+}
+
+.employes_block_two_filter{
+    display: flex;
+    align-items: center;
+    width: 29.653vw;
+    height: 3.125vw;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+color: var(--blue, #145EB6);
+font-family: "Roboto";
+font-size: 1.111vw;
+font-style: normal;
+font-weight: 400;
+}
+.block_two_filter_title{
+    padding-left: 1.875vw;
+    padding-right: 5.833vw;
+}
+.block_two_filter_dunnies{
+    padding-right: 3.472vw;
+}
+.employes_block_two{
+    display: flex;
+    flex-direction: column;
+}
+.employes_block_two_card{
+    display: flex;
+    width: 29.653vw;
+height: 3.819vw;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+align-items: center;
+color: var(--blue, #145EB6);
+font-family:"Roboto";
+font-size: 1.111vw;
+font-style: normal;
+font-weight: 400;
+}
+.block_two_card_title{
+    padding: 8px 1.111vw;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background: #7FEE6D;    
+        color: var(--black, #282828);
+        font-family: "Roboto";
+        font-size: 1.111vw;
+        font-weight: 400;
+        margin-left: 7px;
+        
+}
+.block_two_card_dunnies{
+    padding-left: 2.083vw;
+    padding-right: 5.903vw;
+}
+.performance_block{
+    margin-left: 1.181vw;
+    display: flex;
+    flex-direction: column;
+    width: 18.194vw;
+    height: 20.417vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 1.250vw;
+}
+.performance_block_head{
+    display: flex;
+    padding-top: 1.042vw;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--blue, #145EB6);
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-weight: 400;
+}
+.performance_block_title{
+    display: flex;
+    flex-direction: column;
+}
+.performance_block_title span{
+    color: var(--grey, #A7A7A7);
+    font-family: Roboto;
+    font-size: 0.694vw;
+    font-style: normal;
+    font-weight: 400;
+}
+.performance_block_setting img{
+    width: 1.389vw;
+height: 1.389vw;
+}
+.performance_block_img{
+    padding: 1.389vw;
+}
+.performance_block_img img{
+    height: 15.486vw;
+    width: 14.861vw;
+}
+.performance_block_button{
+   text-align: left;
+}
+.performance_block_button select{
+    text-align:left;
+    
+    color: #145EB6;
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    border: #145EB6 1px solid;
+    border-radius: 5px;
+    width: 5.903vw;
+height: 2.083vw;
+}
+option{
+    
+    color: #145EB6;
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    border: #145EB6 1px solid;
+    text-align: left;
+}
+.sales_block{
+    width: 18.194vw;
+height: 23.125vw;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+margin-left: 1.181vw;
+}
+.sales_block_cards{
+    padding-top: 1.736vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.389vw;
+}
+.sales_block_card{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sales_block_name{
+    color: #000;
+    font-family: "Roboto";
+    font-size: 0.694vw;
+    font-weight: 400;
+}
+.sales_block_price{
+    color: #000;
+    font-family: "Roboto";
+    font-size: 0.764vw;
+    font-style: normal;
+    font-weight: 500;
+}
+.sales_block_line svg{
+    width: 4.028vw;
+height: 0.903vw;
+}
+.sales_block_procent{
+    color: #5DB65B;
+
+font-family: "Roboto";
+font-size: 0.694vw;
+font-style: normal;
+font-weight: 400;
+}
+.sales_block_arrow img{
+width: 0.972vw;
+height: 0.972vw;
+}
+
+.block_two_filter_title img, .block_two_filter_date img , .block_two_filter_dunnies img{
+    width: 1.389vw;
+    height: 1.389vw;
+}
+.red{
+    color: red;
+}

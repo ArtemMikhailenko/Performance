@@ -1,0 +1,145 @@
+
+.manager_block_one{
+    display: flex;
+    gap: 11px;
+}
+
+.manager_usd{
+    width: 356px;
+height: 397px;
+background-image: url(/img/Path\ 2039.png);
+fill: #2C77FF;
+
+filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.16));
+margin-top: 20px;
+margin-left: 10px;
+}
+.manager_usd_line svg{
+    width: 360px;
+height: 87px;
+}
+.manager_usd_title{
+    padding-top: 22px;
+    padding-left: 23px;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.manager_usd_title span{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.manager_usd_subtitle{
+    display: flex;
+    width: 201px;
+    padding-left: 23px;
+    padding-top: 3px;
+    align-items: center;
+    color: #FFF;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 120px;
+}
+.manager_usd_subtitle span{
+    color: #FFF;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+.manager_usd_line{
+    position: relative;
+}
+.manager_usd_bottom img{
+    position: absolute;
+    top: 35px;
+    left: 70px;
+}
+.manager_usd_bottom_price {
+    padding-left: 40px;
+    color: #FFF;
+
+font-family: Nunito Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+}
+.manager_usd_bottom_price {
+    font-size: 14px;
+}
+.manager_usd_bottom{
+    background-image: url(/img/Path\ 2035.png);
+    width: 351px;
+    left: 5px;
+    
+    height: 171px;
+    position: absolute;
+}
+
+.manager_victorys{
+    width: 720px;
+height: 400px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+}
+.victorys_head{
+    display: flex;
+    padding-top: 21px;
+    padding-left: 21px;
+}
+.victorys_title{
+    color: #63799B;
+padding-bottom: 3px;
+font-family: Nunito Sans;
+font-size: 48px;
+font-style: normal;
+margin-right: 103px;
+width: 281px;
+font-weight: 400;
+}
+.victorys_subtitle{
+    color: #63799B;
+padding-left: 6px;
+
+font-family: Nunito Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.victorys_point{
+    display: flex;
+    color: #63799B;
+    width: 281px;
+    height: 57px;
+    align-items: center;
+font-family: Nunito Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+}
+.victorys_point_first{
+    padding-right: 26px;
+}
+.victorys_point svg{
+width: 12px;
+height: 12px;
+margin-right: 8px;
+}
+.victorys_graf img{
+    width: 685px;
+    height: 278px;
+    align-items: center;
+}

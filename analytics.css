@@ -1,0 +1,448 @@
+.analytics_content{
+    display: flex;
+    padding-bottom: 60px;
+}
+.analytics_block_one{
+    display: flex;
+    flex-direction: column;
+}
+.analytics_income{
+    margin-top: 1.389vw;
+    margin-left: 0.694vw;
+    display: flex;
+    flex-direction: column;
+    width: 20.833vw;
+    height: 11.111vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    background: #FFF;
+}
+.income_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.694vw;
+    padding-left: 1.389vw;
+    padding-right: 0.417vw;
+}
+.income_title{
+    color: var(--dark-grey, #8D8D8D);
+    font-family: "Roboto";
+    font-size: 1.389vw;
+   font-weight: 400;
+}
+.income_subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.778vw;
+    height: 1.250vw;
+    background: #F0F0F0;
+    color: var(--grey, #A7A7A7);
+    font-family: "Roboto";
+    font-size: 0.694vw;
+    font-weight: 400;
+}
+.income_number{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.042vw;
+    padding-left: 1.389vw;
+    padding-right: 0.417vw;
+   padding-bottom: 0.694vw;
+}
+.income_number_line{
+    display: flex;
+    margin: 0 1.389vw;
+    
+    width: 18.056vw;
+    height: 0.069vw;
+    opacity: 0.3;
+    background: var(--grey, #A7A7A7);
+}
+.income_number_sum{
+    color: var(--black, #282828);
+    font-family: "Roboto";
+    font-size: 2.222vw;
+    font-style: normal;
+    font-weight: 500;
+}
+.income_number_procent{
+    display: flex;
+    color: #FF3D00;
+    font-family: "Roboto";
+    font-size: 0.972vw;
+    font-style: normal;
+    font-weight: 500;
+}
+.income_number_procent svg{
+    width: 0.972vw;
+    height: 0.972vw;
+}
+.income_text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.347vw;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 0.972vw;
+    padding-top: 0.694vw;
+    padding-left: 1.389vw;
+    font-weight: 400;
+}
+.income_text_first{
+    color: var(--grey, #A7A7A7);
+}
+.income_text_second{
+    color: var(--dark-grey, #8D8D8D);
+}
+.analytics_round_block{
+    display: flex;
+    flex-direction: column;
+    width: 20.833vw;
+    height: 25.417vw;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 0.694vw;
+    margin-top: 1.389vw;
+}
+
+.analytics_round_title{
+    color: var(--dark-grey, #8D8D8D);
+    font-family: "Roboto";
+    font-size: 1.389vw;
+    font-style: normal;
+    font-weight: 500;
+    padding: 1.389vw 0 10px 1.389vw;
+}
+.analytics_round_subtitle{
+    color: var(--grey, #A7A7A7);
+    font-family: "Roboto";
+    font-size: 0.694vw;
+    margin-bottom: 1.042vw;
+    font-style: normal;
+    font-weight: 400;
+    width: 2.778vw;
+    height: 1.316vw;
+    background: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16.667vw;
+}
+.analytics_round_round{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.778vw;
+}
+.analytics_round_round img {
+    width: 10.764vw;
+    height: 10.764vw;
+}
+.analytics_round_text{
+    display: flex;
+    padding-left: 1.389vw;
+    padding-right: 1.389vw;
+    justify-content: space-between;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-style: normal;
+    padding-bottom:0.694vw ;
+    font-weight: 400;
+}
+.analytics_round_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.347vw;
+    justify-content: center;
+}
+.analytics_round_number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.347vw;
+}
+.analytics_round_number svg{
+    width: 0.972vw;
+    height: 0.972vw;
+}
+
+.analytics_car{
+    display: flex;
+    width: 54.167vw;
+    height: 11.111vw;
+    border-radius: 5px;
+    background: #FFF;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 1.389vw;
+    margin-left: 0.694vw;
+}
+.analytics_car_block_title{
+    color: var(--black, #282828);
+    font-family: "Roboto";
+    font-size: 1.389vw;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 1.389vw;
+    padding-top: 1.389vw;
+    padding-bottom: 2.569vw;
+}
+.analytics_car_block_input form{
+    display: flex;
+    width: 100%;
+    padding-left: 2.778vw;
+    padding-right: 2.778vw;
+    justify-content: space-between;
+}
+.car_block_input_date{
+    display: flex;
+
+}
+.car_block_button{
+    width: 6.944vw;
+    height: 2.778vw;
+    border-radius: 3px;
+    background: var(--blue, #145EB6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-weight: 400;
+}
+
+.car_status_blocks{
+    display: flex;
+    gap: 10px;
+}
+
+.car_status_content{
+    display: flex;
+    flex-direction: column;
+    width: 54.167vw;
+    height: 18.264vw;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 0.694vw;
+    margin-top: 1.389vw;
+
+}
+.car_status_title{
+    padding-top: 1.389vw;
+    padding-left: 2.778vw;
+    padding-bottom: 1.181vw;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+}
+.car_status_block_one{
+
+}
+
+.car_block_one_filter{
+    display: flex;
+    align-items: center;
+    width: 22.153vw;
+    color: var(--blue, #145EB6);
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+}
+.block_one_filter_code{
+    padding-right: 5px;
+}
+.block_one_filter_name{
+    padding-left: 7.431vw;
+    padding-right: 0.347vw;
+}
+.block_one_filter_check {
+    padding-left: 2.778vw;
+    
+}
+.car_block_one_card{
+    display: flex;
+    align-items: center;
+    width: 22.153vw;
+    height: 3.819vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    color: var(--blue, #145EB6);
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 1.389vw;
+}
+.block_one_card_check{
+    padding-left: 1.389vw;
+    padding-right: 0.347vw;
+}
+.block_one_card_img img{
+    width: 2.431vw;
+    height: 2.431vw;
+}
+.block_one_card_img{
+    padding-right: 0.694vw;
+}
+.block_one_card_code{
+    padding-right: 2.083vw;
+}
+
+.car_block_two_filter{
+    display: flex;
+    align-items: center;
+    width: 28.542vw;
+    color: var(--blue, #145EB6);
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 7px;
+}
+.block_two_filter_title{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 1.389vw;
+    padding-right: 9.306vw;
+    padding-top: 0.694vw;
+}
+.block_two_filter_dunnies{
+    padding-right: 1.736vw;
+    padding-top: 0.694vw;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.block_two_filter_date{
+    text-wrap: wrap;    
+}
+.car_block_two_filter img {
+    width: 1.389vw;
+height: 1.389vw;
+}.employes_block_two_card{
+    display: flex;
+    width: 29.653vw;
+height: 3.819vw;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+align-items: center;
+color: var(--blue, #145EB6);
+font-family:"Roboto";
+font-size: 1.111vw;
+font-style: normal;
+font-weight: 400;
+}
+.block_two_card_title{
+    padding: 8px 1.111vw;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background: #7FEE6D;    
+        color: var(--black, #282828);
+        font-family: "Roboto";
+        font-size: 1.111vw;
+        font-weight: 400;
+        margin-left: 7px;
+        
+}
+
+.car_block_two_card{
+    display: flex;
+    width: 29.653vw;
+    height: 3.819vw;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    color: var(--blue, #145EB6);    
+    font-family:"Roboto";
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 400;
+}
+.block_two_card_title{
+    padding: 0.556vw 1.111vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #7FEE6D;    
+    color: var(--black, #282828);
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-weight: 400;
+    margin-left: 7px;
+        
+}
+.block_two_card_dunnies{
+    padding-left: 2.53vw;
+    padding-right: 5.903vw;
+}
+.earning{
+    display: flex;
+    flex-direction: column;
+    width: 54.167vw;
+height: 18.264vw;
+border-radius: 5px;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+margin-top: 1.389vw;
+margin-left: 0.694vw;
+
+}
+.earning_head{
+    display: flex;
+    padding-top: 2.083vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.earning_title{
+    color: #000;
+
+font-family: "Roboto";
+font-size: 1.111vw;
+font-style: normal;
+font-weight: 500;
+display: flex;
+align-items: center;
+}
+.earning_date{
+    color: var(--dark-grey, #8D8D8D);
+font-family: "Roboto";
+font-size: 1.111vw;
+font-style: normal;
+font-weight: 400;
+display: flex;
+align-items: center;
+}
+.earning_date svg{
+    width: 1.111vw;
+height: 1.111vw;
+}
+.earning_period{
+    display: flex;
+    color: var(--dark-grey, #8D8D8D);
+font-family: "Roboto";
+font-size: 1.111vw;
+font-style: normal;
+font-weight: 400;
+gap: 1.389vw;
+
+}
+.earning_period svg{
+    width: 0.764vw;
+height: 0.764vw;
+}
+.earning_graf{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.181vw;
+}
+.earning_graf img{
+    width: 47.222vw;
+    height: 12.292vw;
+}

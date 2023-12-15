@@ -1,0 +1,293 @@
+*{
+    font-family: "Roboto";
+}
+
+.page_offers_head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.778vw;
+    align-items: center;
+    padding-bottom: 4.167vw;
+}
+.offers_head_logo img{
+    width: 4.306vw;
+height: 4.306vw;
+}
+.offers_head_block{
+    display: flex;
+    gap: 2.083vw;
+    align-items: center;
+    
+}
+.offers_head_profile{
+    display: flex;
+    gap: 1.389vw;
+    align-items: center;
+}
+.offers_head_title{
+    color: #282828;
+    font-family: "Roboto";
+    font-size: 2.500vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.offers_head_clock{
+    display: flex;
+    align-items: center;
+    color: #797777;
+    font-size: 1.111vw;
+    font-weight: 400;
+}
+.offers_head_timer{
+    display: flex;
+    align-items: center;
+    color: #797777;
+    font-family: "Roboto";
+    font-size: 1.111vw;
+    font-style: normal;
+    font-weight: 500;
+}
+.offers_head_wellet{
+    display: flex;
+    align-items: center;
+    color: #23B40C;
+    font-size: 1.111vw;
+    font-weight: 500;
+}
+.offers_head_img{
+padding-right: 8px;
+}
+
+.offers_head_email{
+    color: #797777;
+
+font-family: "Roboto";
+font-size: 1.111vw;
+font-style: normal;
+font-weight: 400;
+}
+.offers_head_foto img{
+    width: 3.472vw;
+    height: 3.472vw;
+}
+.offers_logout img {
+    width: 1.667vw;
+height: 1.667vw;
+}
+
+.offers_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1.389vw;
+    width: 8.889vw;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.center svg{
+    padding-right: 0.694vw;
+}
+.offers_main_content{
+    display: flex;
+    
+}
+.offers_main_block{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.main_filter{
+    display: flex;
+    gap: 1.389vw;
+}
+.filter_block{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 1.389vw;
+}
+
+.main_filter div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.694vw;
+    color:#A7A7A7;
+    font-size: 1.111vw;
+    font-weight: 400;
+}
+.filter_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9.722vw;
+height: 2.778vw;
+flex-shrink: 0;
+border-radius: 5px;
+background:#145EB6;
+color: #FFF;
+font-size: 1.111vw;
+font-weight: 400;
+margin-top: 1.736vw;
+}
+input{
+    width: 11.111vw;
+height: 2.778vw;
+border-radius: 5px;
+border: 1px solid var(--grey, #A7A7A7);
+}
+.offers_top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+height: 3.472vw;
+border: 1px solid var(--dark-grey, #8D8D8D);
+background: #F3F3F3;
+color: var(--dark-grey, #8D8D8D);
+font-size: 1.111vw;
+font-weight: 400;
+flex-wrap: nowrap;
+}
+.top_ofer{
+    display: flex;
+    padding-left: 2.083vw;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.top_tariff{
+    display: flex;
+    padding-left: 12.500vw;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.top_category{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 5.556vw;
+    align-items: center;
+}
+.top_goals{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 5.556vw;
+    align-items: center;
+}
+.top_bet{
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 4.861vw;
+}
+.top_cr{
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 4.861vw;
+}
+.top_epc{
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 4.861vw;
+}
+.top_country{
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 4.861vw;
+}
+.offers_card{
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 9.722vw;
+    color: var(--dark-grey, #8D8D8D);
+    font-size: 1.389vw;
+    font-weight: 400;
+    border: 1px solid var(--grey, #A7A7A7);
+    background: #FFF;
+}
+.offers_card2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 9.722vw;
+    color: var(--dark-grey, #8D8D8D);
+    font-size: 1.389vw;
+    font-weight: 400;
+    border: 1px solid var(--grey, #A7A7A7);
+    background: #F3F3F3;
+}
+.card_img img{
+    width: 6.944vw;
+height: 6.944vw;
+}
+.card_img{
+    padding-right: 0.694vw;
+    padding-left: 0.694vw;
+}
+.card_name_block{
+    display: flex;
+    flex-direction: column;
+    height: 6.944vw;
+    justify-content: space-between;
+    padding-right: 1.389vw;
+}
+.card_name{
+    color: var(--blue, #145EB6);
+font-size: 1.389vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+.btn_link{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.btn_link button{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 8.819vw;
+    height: 2.431vw;
+justify-content: center;
+align-items: center;
+gap: 0.694vw;
+border-radius: 3px;
+border: 1px solid #E58124;
+color: #E58124;
+font-size: 1.389vw;
+font-style: normal;
+font-weight: 400;
+}
+
+.card_tarif{
+    padding-right: 3.333vw;
+}
+.card_category{
+    padding-right: 4.514vw;
+}
+.card_goals{
+    padding-right: 3.819vw;
+}
+.card_bet{
+    padding-right: 4.861vw;
+}
+.card_cr{
+   padding-right: 5.556vw; 
+}
+.card_epc{
+    padding-right: 6.250vw;
+}
+.card_country{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right:2.431vw;
+}
+.card_country img{
+    width: 1.667vw;
+height: 1.667vw;
+padding-right: 5px;
+}

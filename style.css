@@ -19,6 +19,7 @@ html , body {
 }
 body{
     overflow-x: hidden;
+    
 }
 a{
     color: inherit;
@@ -47,7 +48,7 @@ button{
 /*---------------------------------------------------------------------------------------------------------*/
 
 .wrapper{
-    min-height: 100%;
+    min-height: 100vh;
     overflow: clip;
     
     display: flex;
@@ -56,6 +57,7 @@ button{
 
 .page{
     flex: 1 1 auto;
+    position: relative;
 }
 
 
@@ -74,7 +76,7 @@ button{
     left: 0;
     top: 0;
     z-index: 5000000;
-    padding-top: 1.875rem;
+    padding-top: 2.0833vw;
     
 }
 .header__container{
@@ -89,16 +91,16 @@ button{
 }
 
 .header__logo img {
-    max-width: 3.875rem;
+    max-width: 4.3056vw;
 }
 .header__body {
     display: flex;
     align-items: center;
     column-gap: 2.986vw;
-    position: relative;
+    /* position: relative; */
 }
 .menu__list {
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -139,38 +141,40 @@ padding:1.389vw;
 }
 .header__language{
     display: flex;
-    row-gap: 0.625rem;
+    row-gap: 0.6944vw;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 1.444vw;
     font-weight: 400;
     align-items: center;
     position: relative;
-    padding-left: 0.625rem;
+    padding-left: 0.6944vw;
     cursor: pointer;
 }
 .header__language::before{
     position: absolute;
-    left: -1.25rem;
+    left: -20px;
     content: url('/img/globe.png');
 }
 
 
 .main-section {
-    height: 100vh;
-    position: relative;
+    height: 54.545vw;
+    /* position: relative; */
     display: flex;
+    
 }
 .main-section__content{
     display: flex;
     flex-direction: column;
     gap: 2.083vw;
+    height: 53.5417vw;
     width: 55.208vw;
     padding-top: 3.8125rem;
     
 }
 .main-section__container {
-    position: relative;
+    /* position: relative; */
     padding-top: 5.625rem;
     padding-bottom: 1.875rem;
     z-index: 500000;
@@ -213,22 +217,23 @@ padding:1.389vw;
     border-radius: 0.9375rem;
     border-width: 1px;
     width: 15.208vw;
-    height: 8.167vh;
+    height: 4.1667vw;
     background: rgb(20,94,182);
     background: linear-gradient(90deg, rgba(20,94,182,0.8559874633447129) 26%, rgba(249,249,249,0) 100%)
 }
 .main-section__image {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 53.5417vw;
     top: 0;
     left: 0;
+    ;
     
 }
 .main-section__image img{
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 53.5417vw;
     top: 0;
     left: 0;
     object-fit: cover;
@@ -238,25 +243,38 @@ padding:1.389vw;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 54.5417vw;
     object-fit: cover;
     z-index:50000;
-    opacity:1;
+    
 }
 .main-section__mountain img{
     width: 100vw;
-    height: 100vh;
+    height: 55vw;
+    
     object-fit:fill;
+    
 }
 .main-section__arrows{
     
     margin: 0 auto;
+    width: 2.5397vw;
+    height: 4.4444vw;
+    
 
+}
+.main-section__arrows img{
+    width: 2.5397vw;
+    height: 4.4444vw;
 }
 .page_about{
     background-image: url(/img/black-particles-pattern\ 1.png);
     color: #FFF;
-    background-size:contain ;
+    height: 100%;
+    border-top: #fff solid 3px;
+    z-index:100;
+    display: block;
+    position: relative;
 }
 
 .page_about_title{
@@ -267,6 +285,8 @@ padding:1.389vw;
     font-size: 4.444vw;
     font-style: normal;
     font-weight: 500;
+   
+   
 }
 .page_about_subtitle{
     color: #A7A7A7;
@@ -294,7 +314,7 @@ padding:1.389vw;
 }
 .first_blocks_content{
     width: 25.556vw;
-    height: 41vh;
+    height: 23.8889vw;
     border-radius: 0.9375rem;
     margin-top: 20px;
     display: flex;
@@ -333,6 +353,7 @@ padding:1.389vw;
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
+    z-index: 2;
 }  
 .blocks_sales_content{
     display: flex;
@@ -376,7 +397,8 @@ line-height: normal;
     line-height: normal;
 }
 .page_advantages{
-    
+    position: relative;
+    z-index: 2;
 }
 .page_advantages_title{
     margin-top: 5rem;
@@ -387,30 +409,35 @@ line-height: normal;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-bottom: 3.75rem;
+    padding-bottom: 4.1667vw;
     
 }
 .advantages_blocks{
     display: flex;
     flex-wrap: wrap;
-    gap: 5.972vw;
+    gap: 30px;
     justify-content: center;
     
 }
 .advantages_block_img img {
     width: 3.333vw;
-    height: 6.202vh;
+    height: 3.333vw;
+}
+.advantages_blocks{
+    width: 100%;
+    height: 100%;
 }
 .advantages_blocks_block{
     display: flex;
     flex-direction: column;
     width: 25.556vw;
+    max-height: 23.8889vw;
     background: rgb(6,57,118);
     background: linear-gradient(145deg, rgba(6,57,118,0.8531863428965336) 0%, rgba(249,249,249,0) 100%); 
     border-radius: 0.9375rem;
     border: rgba(6,57,118,0.8531863428965336) 1px solid;
-    height: 44.444vh;
-    padding: 3.876vh 2.083vw 0 2.083vw;
+    
+    padding: 2.0833vw 2.083vw;
     gap: 2.083vw;
     
 }
@@ -455,6 +482,7 @@ line-height: normal
     flex-direction: column;
     gap: 2.083vw;
     width: 41.181vw;
+    z-index: 2;
 }
 .cooperation_block_txt{
     display: flex;
@@ -625,6 +653,7 @@ font-weight: 400;
 line-height: normal;
 
 }
+
 .roadmap_block_element{
     color: #FFF;
 display: flex;
@@ -643,14 +672,14 @@ justify-content: center;
 padding-left: 3.472vw;
 
 }
-.roadmap_block_element ::before{
+.roadmap_block_element  ::before{
     content: url("/img/roadmapsvg.svg");
     width: 2.500vw;
     height: 5.217vh;
     line-height: normal;
     object-fit: contain;
     position: absolute;
-    left: -10px;
+    left: -0.694vw;
 
 }
 
@@ -689,9 +718,23 @@ padding-left: 3.472vw;
         /* display: none; */
     }
 }
+@media(max-width:1280px){
+.advantages_blocks_block{
+    height: 40vh;
+}
+}
+@media(max-width:1024){
+    .advantages_blocks_block{
+        height:30vh;
+    }
+    }
 
-
-
+@media(max-width:950px){
+    .roadmap_block_element ::before{
+left: -15px;
+margin-bottom: 10px;
+    }
+    }
 
 
   /* ---- particles.js container ---- */
@@ -702,6 +745,16 @@ padding-left: 3.472vw;
     top: 0;
     left: 0;
     z-index: 1;
-    width: 100vw;
-
+    width: 100%;
+    opacity: 0.8;
   }
+  #particles-js2{
+   position: absolute;
+     height: 100%;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     width: 100vw;
+     opacity: 0.8;
+   }
+ 
